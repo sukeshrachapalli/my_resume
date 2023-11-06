@@ -1,0 +1,23 @@
+h1 {
+    padding-bottom: 0px;
+    margin: auto;
+}
+h1:after
+{
+    content:' ';
+    display:block;
+    border:1px solid black;
+}
+.contact {
+    justify-content: left;
+}
+.internal-contact {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+h2:after {
+    content: ' ';
+    display:block;
+    border: 1px solid black;
+}
